@@ -14,6 +14,9 @@
 		7734D4BB19A67C2500F17068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7734D4B919A67C2500F17068 /* Main.storyboard */; };
 		7734D4BD19A67C2500F17068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7734D4BC19A67C2500F17068 /* Images.xcassets */; };
 		7734D4C919A67C2600F17068 /* SwiftSkeletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734D4C819A67C2600F17068 /* SwiftSkeletonTests.swift */; };
+		7734D4D319A67C5100F17068 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734D4D219A67C5100F17068 /* Singleton.swift */; };
+		7734D4D519A67CA900F17068 /* SwiftNetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734D4D419A67CA900F17068 /* SwiftNetworkingClient.swift */; };
+		7734D4D719A67F5500F17068 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7734D4D619A67F5500F17068 /* JSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		7734D4C219A67C2600F17068 /* SwiftSkeletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSkeletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7734D4C719A67C2600F17068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7734D4C819A67C2600F17068 /* SwiftSkeletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSkeletonTests.swift; sourceTree = "<group>"; };
+		7734D4D219A67C5100F17068 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		7734D4D419A67CA900F17068 /* SwiftNetworkingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNetworkingClient.swift; sourceTree = "<group>"; };
+		7734D4D619A67F5500F17068 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 		7734D4AD19A67C2500F17068 /* SwiftSkeleton */ = {
 			isa = PBXGroup;
 			children = (
+				7734D4D619A67F5500F17068 /* JSON.swift */,
+				7734D4D219A67C5100F17068 /* Singleton.swift */,
+				7734D4D419A67CA900F17068 /* SwiftNetworkingClient.swift */,
 				7734D4B019A67C2500F17068 /* AppDelegate.swift */,
 				7734D4B519A67C2500F17068 /* MasterViewController.swift */,
 				7734D4B719A67C2500F17068 /* DetailViewController.swift */,
@@ -215,8 +224,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7734D4B419A67C2500F17068 /* SwiftSkeleton.xcdatamodeld in Sources */,
+				7734D4D719A67F5500F17068 /* JSON.swift in Sources */,
 				7734D4B119A67C2500F17068 /* AppDelegate.swift in Sources */,
+				7734D4D519A67CA900F17068 /* SwiftNetworkingClient.swift in Sources */,
 				7734D4B619A67C2500F17068 /* MasterViewController.swift in Sources */,
+				7734D4D319A67C5100F17068 /* Singleton.swift in Sources */,
 				7734D4B819A67C2500F17068 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
