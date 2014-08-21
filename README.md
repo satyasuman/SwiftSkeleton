@@ -1,4 +1,20 @@
 SwiftSkeleton
 =============
 
-A quick template for swift that includes a singleton, api handler, json parser, and side menu
+## What is SwiftSkeleton?
+
+SwiftSkeleton is a simple and barebones template that includes:
+- A Singleton
+- A Networking Client (with authentication)
+- A JSON Parser
+
+### Future updates include:
+
+- CoreData saving/loading
+- Locales
+- A better side menu/split view controller
+
+
+
+
+
